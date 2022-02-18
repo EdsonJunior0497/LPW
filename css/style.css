@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #c2d6d6;
+    
+}
+header{
+    background-color:#120A2A;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+main{
+
+background-color: white;
+max-width: 500px;
+width: 70%;
+padding: 10px;
+margin-top: 2%;
+margin-left: auto;
+margin-right: auto;
+}
+.card{
+    background-color: #fff;
+    border: 1px solid #ccc ;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+.lineInput{
+    display: grid;
+    margin-bottom:10px;
+}
+input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+    
+}
+input#button{
+   border: 0px;
+   padding: 10px;
+   outline: 0;
+   background-color: #120A2A;
+   color: #fff;
+   border-radius: 3px;
+   font-weight: bold;
+}
+
+.content{
+    margin-top: 15px ;
+   
+}
+.center{
+    text-align: center;
+}
+#bot1{
+    color:black;
+    background-color:coral;
+    height: 50%;
+    width: 20%;
+}
