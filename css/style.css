@@ -62,9 +62,10 @@ input#button{
 .center{
     text-align: center;
 }
-#bot1{
-    color:black;
-    background-color:coral;
-    height: 50%;
+#bt1{
+    color: #c2d6d6;
+    background-color:#120A2A;
+    height: 10%;
     width: 20%;
+    border-radius: 15px;
 }
