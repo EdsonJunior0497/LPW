@@ -1,60 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Inicial LPW</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./script/script.js"></script>
-  </head>
-
-  <body>
+    <link rel="stylesheet" href="style.css">
+  <title>Projeto LPW</title>
+    
+</head>
+<body>
 
     <header>
-        <h1>Cadastro de Aluno</h1>
+        <h1>Cadrastro de Alunos </h1>
     </header>
 
     <main>
-      <form action="" method="post">
         <div class="card">
-          <div class="lineInput">
-              <label for="">Matricula</label>
-              <input type="number" id="matricula" placeholder="Nome do produto">
-          </div>
+            <div class="lineInput">
+                <label for="">Matricula</label>
+                <input type="text" id="Matricula" placeholder="Digite a sua matricula">
+            </div>
 
-          <div class="lineInput">
-              <label>CPF</label>
-              <input type="text" id="cpf" placeholder="Digite seu cpf"/>
-          </div>
+            <div class="lineInput">
+                <label>Cpf</label>
+                <input type="text" id="cpf" placeholder="Digite o seu CPF" autocomplete="off" maxlength="11" >
+            </div>
 
-          <div class="lineInput">
-              <label>Nome</label>
-              <input type="text" id="nome" placeholder="Quantidade">
-          </div>
+            <div class="lineInput">
+                <label>Nome</label>
+                <input type="text" id="nome" placeholder="Digite o seu nome">
+            </div>
 
-          <div class="lineInput">
-              <label>Email</label>
-              <input type="email" id="email" placeholder="Quantidade">
-          </div>
+            <div class="lineInput">
+                <label>Telefone</label>
+                <input type="text" id="telefone" placeholder="Digite o seu número">
+            </div><br>
 
-          <div class="lineInput">
-              <label>Telefone</label>
-              <input type="number" id="telefone" placeholder="Quantidade">
-          </div><br/>
+           <div id="navegar">
+            <button onclick="avs()" id="btprim">Primeiro</button>
+            <button onclick="avs()" id="btant">Anterior</button>
+            <button onclick="avs()" id="btprox">Proximo</button>
+            <button onclick="avs()" id="btult">Ultimo</button>
+        </div>
 
-          <input type="button" id="bt1" value="Primeiro">
-          <input type="button" id="bt2" value="Anterior">
-          <input type="button" id="bt3" value="Proximo">
-          <input type="button" id="bt4" value="Ultimo"><br/><br/>
-          <input type="button" id="bt5" value="incluir">
-          <input type="button" id="bt6" value="Excluir">
-          <input type="button" id="bt7" value="Alterar">
-          </div>
-      </form>  
-    </main>
+            <div id="comando">
+            <button onclick="avs()" id="btinclu">Incluir</button>
+            <button onclick="avs()" id="btexclu">Excluir</button>
+            <button onclick="avs()" id="btalter">Alterar</button>
+            <button onclick="avs()" id="btsair">Sair</button>
+        </div>
+            
+            <div id="dialogo" hidden>
+            <button onclick="avs2()" id="btok">Ok</button>
+            <button onclick="avs2()" id="btcanc">Cancelar</button>
+            </div>
+            
+        </div>
+        </main>  
+        
+        <footer align="center"><b>Linguagem de Programação WEB</b></footer><br>
+        <footer>Colei do Isaque</footer>
 
-  </body>
-
+        <script src="https://kit.fontawesome.com/723f0cb31d.js" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+</body>
 </html>
