@@ -5,34 +5,28 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #c2d6d6;
-    
+    background-color: #6495ED;
 }
 header{
-    background-color:#120A2A;
+    background-color:rgb(26, 25, 25);
     padding: 10px;
     color: white;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 main{
-
-background-color: white;
+background-color: #C0C0C0;
 max-width: 500px;
 width: 70%;
-padding: 10px;
-margin-top: 2%;
-margin-left: auto;
-margin-right: auto;
+padding: 5px;
+margin-top: 30px;
+margin-left: 30%;
+
+
 }
 .card{
-    background-color: #fff;
-    border: 1px solid #ccc ;
+    background-color: #F8F8FF;
     padding: 20px;
-    margin-top: 25px;
-    border-radius: 5px;
+    margin-top: 2px;
 }
 .lineInput{
     display: grid;
@@ -40,32 +34,39 @@ margin-right: auto;
 }
 input{
     padding:10px;
-    border:1px solid #ccc;
+    border:1px solid #cccccc;
     border-radius: 3px;
     outline: 0;
-    
-}
-input#button{
-   border: 0px;
-   padding: 10px;
-   outline: 0;
-   background-color: #120A2A;
-   color: #fff;
-   border-radius: 3px;
-   font-weight: bold;
+
 }
 
-.content{
-    margin-top: 15px ;
-   
+button{
+background-color: rgb(12, 12, 12);
+color: white;
+border-radius: 10px;
+width: 70px;
+height: 40px;
+text-decoration: none;
+
+
 }
-.center{
+
+footer{
     text-align: center;
+    margin-top: 30px;
+    
 }
-#bt1{
-    color: #c2d6d6;
-    background-color:#120A2A;
-    height: 10%;
-    width: 20%;
-    border-radius: 15px;
+#link{
+font-size: 25px;
+color: black;
+padding-right: 8px;
+padding-left: 8px;
+}
+
+div{
+    padding: 6px;
+}
+
+[hidden]{
+    display: none !important;
 }
